@@ -311,11 +311,6 @@ The supplied validation compares the continuous sweep against planted ground tru
 
 A production implementation should add centralized identity, secrets management, monitoring, CI/CD, data-quality SLAs, scalable distributed processing and model governance.
 
-## References
-
-- [Drupal README.md template](https://www.drupal.org/docs/develop/managing-a-drupalorg-theme-module-or-distribution-project/documenting-your-project/readmemd-template)
-- [Nyaya-Sahayak Databricks reference repository](https://github.com/IamSaransh/nayay-sahinta-databricks)
-
 ## Maintainers
 
 TrendLens prototype — hackathon / innovation submission.
