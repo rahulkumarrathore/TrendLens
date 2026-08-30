@@ -1,0 +1,6 @@
+Date: 2026-08-13
+Title: PayFlow gateway reports elevated UPI timeout rates
+Source: TechOps Status Blog
+Description: PayFlow acknowledged elevated 504 timeout rates on its UPI endpoint between 14:00 and 22:00 IST on Aug 13.
+Affected area: Checkout completion, mobile UPI payments
+Potential impact: Lower checkout completion on Aug 13; recovery expected once timeouts resolve.

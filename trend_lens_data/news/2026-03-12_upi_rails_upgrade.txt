@@ -1,0 +1,6 @@
+Date: 2026-03-12
+Title: Payment networks complete scheduled UPI infrastructure upgrade
+Source: TechOps Status Blog
+Description: A planned maintenance window for UPI rails completed overnight with no reported merchant disruption.
+Affected area: Payment processing
+Potential impact: No impact expected on checkout completion.
