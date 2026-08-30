@@ -1,0 +1,86 @@
+{
+ "2026-07-25_promo_coupon_launch.txt|orders_kpi|2026-07-28|2026-07-29": {
+  "claim": "Retailers extended site-wide coupon offers into August",
+  "direction": "confirming",
+  "supports": "coupon_expiry",
+  "temporal": 0.5,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.73,
+   "tokens_in": 245,
+   "tokens_out": 46
+  }
+ },
+ "2026-07-21_airpro_launch.txt|orders_kpi|2026-07-28|2026-07-29": {
+  "claim": "No significant promotion occurred to drive the anomaly",
+  "direction": "refuting",
+  "supports": null,
+  "temporal": 0.0,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.43,
+   "tokens_in": 255,
+   "tokens_out": 46
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|orders_kpi|2026-07-28|2026-07-29": {
+  "claim": "The increase in orders may be due to competitor promotion",
+  "direction": "refuting",
+  "supports": "competitor_promo",
+  "temporal": 0.0,
+  "conflicts_with_internal": true,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.49,
+   "tokens_in": 244,
+   "tokens_out": 47
+  }
+ },
+ "2026-08-13_upi_gateway_degradation.txt|gmv|2026-08-17|2026-08-23": {
+  "claim": "Elevated  timeout rates may impact gmv",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 60.28,
+   "tokens_in": 269,
+   "tokens_out": 46
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-08-17|2026-08-23": {
+  "claim": "A competitor introduced audio bundling offers, which may have affected sales",
+  "direction": "neutral",
+  "supports": "coupon_expiry",
+  "temporal": 0.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.63,
+   "tokens_in": 253,
+   "tokens_out": 47
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-08-17|2026-08-23": {
+  "claim": "Retailers extended site-wide coupon offers into August, which may have impacted gmv",
+  "direction": "refuting",
+  "supports": "coupon_expiry",
+  "temporal": 0.9,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.15,
+   "tokens_in": 254,
+   "tokens_out": 53
+  }
+ }
+}
