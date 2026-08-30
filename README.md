@@ -68,7 +68,7 @@ TrendLens follows a modular, event-driven analytical architecture combining time
 
 ### High-level architecture
 
-![TrendLens exact implementation architecture](docs/trendlens_architecture_clean.png)
+![TrendLens exact implementation architecture](trendlens_architecture_clean.png)
 > **Architecture accuracy:** This diagram intentionally shows only the components implemented in the repository. The four data sources are `sales.db`, `web_analytics.parquet`, `marketing.xlsx`, and `news/*.txt`. The final user-facing output is the **LLM narrative**, with the implemented deterministic template fallback when an LLM is unavailable. The architecture does not claim Airflow, Databricks, Neo4j, Slack/email alerts, PDF exports, or other unimplemented services.
 
 
@@ -85,7 +85,7 @@ TrendLens follows a modular, event-driven analytical architecture combining time
 - **LLM as narrator, not decision-maker:** deterministic analytical logic remains the source of truth, with a deterministic fallback when an LLM is unavailable or fails validation.
 
 
-![TrendLens exact implementation architecture](docs/trendlens_architecture_clean.png)
+![TrendLens exact implementation architecture](trendlens_architecture_clean.png)
 
 > **Implementation accuracy:** The architecture uses the four data sources that actually exist in this repository — `sales.db`, `web_analytics.parquet`, `marketing.xlsx`, and `news/*.txt`. The final user-facing result is the **LLM narrative** (or the implemented deterministic template fallback when an LLM is unavailable). No additional ingestion platforms, dashboards, APIs, databases, or delivery channels are implied by this diagram.
 
