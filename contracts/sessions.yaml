@@ -1,0 +1,43 @@
+kpi: sessions
+formula: sum(sessions)
+grain: day x region x channel
+parents: []
+sources:
+- web_analytics.parquet
+drivers:
+- competitor_promo
+- marketing_gap
+levers:
+  campaign_spend: marketing_exec
+thresholds:
+  sigma: 2.0
+  min_impact_inr: 8000
+gate:
+  persistence_n: 2
+calendar: ISO
+access:
+  cfo:
+    rows: all
+    columns: all
+  north_manager:
+    rows: region = 'North'
+    columns_exclude:
+    - margin
+    - cogs
+    domains_exclude:
+    - marketing_spend
+  marketing_exec:
+    rows: all
+    columns_exclude:
+    - margin
+    - cogs
+    - return_reason
+  analyst_intern:
+    rows: all
+    columns_exclude:
+    - sku
+    - discount_pct
+    min_grain: category
+    domains_only:
+    - gmv
+    - orders
