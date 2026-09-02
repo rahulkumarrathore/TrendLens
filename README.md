@@ -122,7 +122,7 @@ The LLM is optional and is not used as the source of quantitative truth.
 TrendLens follows a hybrid KPI intelligence pipeline that converts raw
 business data into evidence-backed and actionable insights.
 
-![TrendLens Architecture](a_clean_technical_infographic_architecture_diagram.png)
+![TrendLens Architecture](TrendLens_Architecture.png)
 
 The architecture is supported by cross-cutting capabilities for governance and
 security, observability, and ground-truth evaluation.
