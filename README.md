@@ -308,26 +308,24 @@ scaling.
 
 TrendLens uses a two-sided CUSUM detector on standardized residuals:
 
-```text
-C+t = max(0, C+(t-1) + x_t - k)
+$$
+C_t^{+} = \max\left(0, C_{t-1}^{+} + x_t - k\right)
+$$
 
-C-t = min(0, C-(t-1) + x_t + k)
-```
+$$
+C_t^{-} = \min\left(0, C_{t-1}^{-} + x_t + k\right)
+$$
 
 A signal occurs when:
 
-```text
-C+_t > h
-or
-C-_t < -h
-```
+$$
+C_t^{+} > h\quad\text{or}\quad C_t^{-} < -h
+$$
 
 The implemented detector uses:
 
-```text
 k = 0.5
 h = 4.0
-```
 
 ### Ensemble detection
 
