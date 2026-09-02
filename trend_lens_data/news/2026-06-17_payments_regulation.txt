@@ -1,0 +1,6 @@
+Date: 2026-06-17
+Title: Regulator publishes updated digital payments guidance
+Source: TechOps Status Blog
+Description: An updated guidance note on digital payment authentication was published for industry consultation.
+Affected area: Payments compliance
+Potential impact: No immediate operational impact; implementation timelines pending.
