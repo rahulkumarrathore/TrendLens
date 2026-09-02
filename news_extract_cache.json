@@ -1,0 +1,1136 @@
+{
+ "2026-07-25_promo_coupon_launch.txt|orders_kpi|2026-07-28|2026-07-29": {
+  "claim": "Retailers extended site-wide coupon offers into August",
+  "direction": "confirming",
+  "supports": "coupon_expiry",
+  "temporal": 0.5,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.73,
+   "tokens_in": 245,
+   "tokens_out": 46
+  }
+ },
+ "2026-07-21_airpro_launch.txt|orders_kpi|2026-07-28|2026-07-29": {
+  "claim": "No significant promotion occurred to drive the anomaly",
+  "direction": "refuting",
+  "supports": null,
+  "temporal": 0.0,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.43,
+   "tokens_in": 255,
+   "tokens_out": 46
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|orders_kpi|2026-07-28|2026-07-29": {
+  "claim": "The increase in orders may be due to competitor promotion",
+  "direction": "refuting",
+  "supports": "competitor_promo",
+  "temporal": 0.0,
+  "conflicts_with_internal": true,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.49,
+   "tokens_in": 244,
+   "tokens_out": 47
+  }
+ },
+ "2026-08-13_upi_gateway_degradation.txt|gmv|2026-08-17|2026-08-23": {
+  "claim": "Elevated  timeout rates may impact gmv",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 60.28,
+   "tokens_in": 269,
+   "tokens_out": 46
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-08-17|2026-08-23": {
+  "claim": "A competitor introduced audio bundling offers, which may have affected sales",
+  "direction": "neutral",
+  "supports": "coupon_expiry",
+  "temporal": 0.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.63,
+   "tokens_in": 253,
+   "tokens_out": 47
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-08-17|2026-08-23": {
+  "claim": "Retailers extended site-wide coupon offers into August, which may have impacted gmv",
+  "direction": "refuting",
+  "supports": "coupon_expiry",
+  "temporal": 0.9,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.15,
+   "tokens_in": 254,
+   "tokens_out": 53
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|sessions|2026-08-19|2026-08-23": {
+  "claim": "The sudden appearance of audio bundling offers from a competitor may cause a short-term decline in sales due to comparison shopping pressure.",
+  "direction": "refuting",
+  "supports": "marketing_gap",
+  "temporal": 0.0,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 7.55,
+   "tokens_in": 239,
+   "tokens_out": 59
+  }
+ },
+ "2026-08-21_ad_spend_survey.txt|sessions|2026-08-19|2026-08-23": {
+  "claim": "The KPI (sessions) anomaly is likely due to a marketing strategy issue",
+  "direction": "confirming",
+  "supports": "marketing_gap",
+  "temporal": 0.8,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.22,
+   "tokens_in": 239,
+   "tokens_out": 52
+  }
+ },
+ "2026-08-19_school_admission_season.txt|sessions|2026-08-19|2026-08-23": {
+  "claim": "Admission processes opening in school districts does not negatively affect online retail metrics",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.61,
+   "tokens_in": 229,
+   "tokens_out": 49
+  }
+ },
+ "2026-07-11_eoss_midpoint_traffic.txt|sessions|2026-07-15|2026-07-17": {
+  "claim": "Sale-week traffic held above seasonal norms",
+  "direction": "refuting",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.8,
+   "tokens_in": 235,
+   "tokens_out": 43
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|sessions|2026-07-15|2026-07-17": {
+  "claim": "The competitor's audio bundling offer may have influenced customer behavior.",
+  "direction": "refuting",
+  "supports": "marketing_gap",
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.85,
+   "tokens_in": 239,
+   "tokens_out": 49
+  }
+ },
+ "2026-08-15_rivalmart_sale_ends.txt|sessions|2026-07-15|2026-07-17": {
+  "claim": "The flash sale ended on schedule with no extension announced, suggesting that the competitive traffic pressure eased.",
+  "direction": "confirming",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.38,
+   "tokens_in": 234,
+   "tokens_out": 56
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-07-15|2026-07-30": {
+  "claim": "The extended coupon period may have increased conversion rates and decreased realized prices",
+  "direction": "confirming",
+  "supports": "coupon_expiry",
+  "temporal": 1.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 11.7,
+   "tokens_in": 254,
+   "tokens_out": 48
+  }
+ },
+ "2026-07-21_airpro_launch.txt|gmv|2026-07-15|2026-07-30": {
+  "claim": "The KPI (gmv) moved  in",
+  "direction": "neutral",
+  "supports": "demand_shift",
+  "temporal": 0.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.92,
+   "tokens_in": 264,
+   "tokens_out": 62
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-07-15|2026-07-30": {
+  "claim": "The competitor's audio bundling offer may be a temporary cause of the GVM drop",
+  "direction": "refuting",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.67,
+   "tokens_in": 253,
+   "tokens_out": 56
+  }
+ },
+ "2026-07-21_airpro_launch.txt|gmv|2026-07-15|2026-07-21": {
+  "claim": "AirPro earbuds released into a crowded audio market",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "openai",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-07-15|2026-07-21": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "openai",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-07-15|2026-07-21": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "openai",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-07-23|2026-07-26": {
+  "claim": "Retailers extending site-wide coupon offers supports a demand_shift",
+  "direction": "confirming",
+  "supports": "demand_shift",
+  "temporal": 0.8,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 49.46,
+   "tokens_in": 254,
+   "tokens_out": 49
+  }
+ },
+ "2026-07-21_airpro_launch.txt|gmv|2026-07-23|2026-07-26": {
+  "claim": "The sudden launch of a new earbud model may contribute to a short-term spike in gmv.",
+  "direction": "confirming",
+  "supports": "demand_shift",
+  "temporal": 0.8,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 4.76,
+   "tokens_in": 264,
+   "tokens_out": 56
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-07-23|2026-07-26": {
+  "claim": "A competitor introduced audio bundling offers, which may impact sales",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.0,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 3.94,
+   "tokens_in": 253,
+   "tokens_out": 45
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-07-21|2026-07-25": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-21_airpro_launch.txt|gmv|2026-07-21|2026-07-25": {
+  "claim": "AirPro earbuds released into a crowded audio market",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-07-21|2026-07-25": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-08-13_upi_gateway_degradation.txt|gmv|2026-08-11|2026-08-24": {
+  "claim": "PayFlow gateway reports elevated UPI timeout rates",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-08-11|2026-08-24": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-08-11|2026-08-24": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-08-13_upi_gateway_degradation.txt|gmv|2026-06-10|2026-07-13": {
+  "claim": "PayFlow gateway reports elevated UPI timeout rates",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-10|2026-07-13": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-10|2026-07-13": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-08-13_upi_gateway_degradation.txt|gmv|2026-06-10|2026-06-13": {
+  "claim": "PayFlow gateway reports elevated UPI timeout rates",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-06-10_courier_delays_south.txt|gmv|2026-06-10|2026-06-13": {
+  "claim": "Courier partner reports delivery delays in southern hubs",
+  "direction": "confirming",
+  "supports": "supply_stockout",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-10|2026-06-13": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-09|2026-06-14": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-09|2026-06-14": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-08-13_upi_gateway_degradation.txt|gmv|2026-06-09|2026-06-14": {
+  "claim": "PayFlow gateway reports elevated UPI timeout rates",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-04_eoss_season_start.txt|gmv|2026-07-04|2026-07-06": {
+  "claim": "End-of-season sales begin across online retail",
+  "direction": "confirming",
+  "supports": "seasonal",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-07-04|2026-07-06": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-07-04|2026-07-06": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-08-04|2026-08-06": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-08-04|2026-08-06": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-08_summer_electronics_push.txt|gmv|2026-08-04|2026-08-06": {
+  "claim": "Summer electronics buying picks up",
+  "direction": "confirming",
+  "supports": "seasonal",
+  "temporal": 0.8,
+  "conflicts_with_internal": true,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-08-05|2026-08-06": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-08_summer_electronics_push.txt|gmv|2026-08-05|2026-08-06": {
+  "claim": "Summer electronics buying picks up",
+  "direction": "confirming",
+  "supports": "seasonal",
+  "temporal": 0.8,
+  "conflicts_with_internal": true,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-08-05|2026-08-06": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-08-05|2026-08-05": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-08_summer_electronics_push.txt|gmv|2026-08-05|2026-08-05": {
+  "claim": "Summer electronics buying picks up",
+  "direction": "confirming",
+  "supports": "seasonal",
+  "temporal": 0.8,
+  "conflicts_with_internal": true,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-08-05|2026-08-05": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-08-04|2026-08-05": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-08-04|2026-08-05": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-08_summer_electronics_push.txt|gmv|2026-08-04|2026-08-05": {
+  "claim": "Summer electronics buying picks up",
+  "direction": "confirming",
+  "supports": "seasonal",
+  "temporal": 0.8,
+  "conflicts_with_internal": true,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-07-26|2026-07-29": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-21_airpro_launch.txt|gmv|2026-07-26|2026-07-29": {
+  "claim": "AirPro earbuds released into a crowded audio market",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-07-26|2026-07-29": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-06-10_courier_delays_south.txt|gmv|2026-06-10|2026-06-15": {
+  "claim": "Courier partner reports delivery delays in southern hubs",
+  "direction": "confirming",
+  "supports": "supply_stockout",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-10|2026-06-15": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-10|2026-06-15": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-06-10_courier_delays_south.txt|gmv|2026-06-10|2026-06-18": {
+  "claim": "The reported delivery delays may have impacted sales",
+  "direction": "refuting",
+  "supports": "gateway_issue",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 9.08,
+   "tokens_in": 248,
+   "tokens_out": 45
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-10|2026-06-18": {
+  "claim": "There was no significant decline in GMV due to competitor audio bundling offers",
+  "direction": "refuting",
+  "supports": "competitor_promo",
+  "temporal": 0.0,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.37,
+   "tokens_in": 253,
+   "tokens_out": 52
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-10|2026-06-18": {
+  "claim": "The extended coupon period supports conversion while active",
+  "direction": "confirming",
+  "supports": "coupon_expiry",
+  "temporal": 0.8,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.09,
+   "tokens_in": 254,
+   "tokens_out": 45
+  }
+ },
+ "2026-06-10_courier_delays_south.txt|gmv|2026-06-10|2026-06-19": {
+  "claim": "Potential delivery delays may have caused conversion drag",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.94,
+   "tokens_in": 248,
+   "tokens_out": 45
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-10|2026-06-19": {
+  "claim": "The competitor's audio bundling offer may have caused a temporary decrease in gmv",
+  "direction": "refuting",
+  "supports": "competitor_promo",
+  "temporal": 0.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.66,
+   "tokens_in": 253,
+   "tokens_out": 53
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-10|2026-06-19": {
+  "claim": "Retailers extended site-wide coupon offers, potentially impacting conversion and prices",
+  "direction": "refuting",
+  "supports": "marketing_gap",
+  "temporal": 1.0,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.45,
+   "tokens_in": 254,
+   "tokens_out": 48
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-05|2026-06-15": {
+  "claim": "A competing retailer introduced audio bundling offers, which may cause mild comparison-shopping pressure.",
+  "direction": "neutral",
+  "supports": "coupon_expiry",
+  "temporal": 0.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 3.35,
+   "tokens_in": 253,
+   "tokens_out": 50
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-05|2026-06-15": {
+  "claim": "Extended coupon offers support conversion",
+  "direction": "confirming",
+  "supports": "coupon_expiry",
+  "temporal": 1.0,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.19,
+   "tokens_in": 254,
+   "tokens_out": 40
+  }
+ },
+ "2026-05-08_summer_electronics_push.txt|gmv|2026-06-05|2026-06-15": {
+  "claim": "Demand shift in Electronics category may have caused a  gmv anomaly",
+  "direction": "confirming",
+  "supports": "demand_shift",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.64,
+   "tokens_in": 243,
+   "tokens_out": 54
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-03|2026-06-15": {
+  "claim": "No significant impact from competitor promo",
+  "direction": "refuting",
+  "supports": "competitor_promo",
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 3.35,
+   "tokens_in": 253,
+   "tokens_out": 45
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-03|2026-06-15": {
+  "claim": "Retailers' coupon offers may have contributed to a surge in sales",
+  "direction": "confirming",
+  "supports": "coupon_expiry",
+  "temporal": 0.8,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.76,
+   "tokens_in": 254,
+   "tokens_out": 50
+  }
+ },
+ "2026-08-15_rivalmart_sale_ends.txt|gmv|2026-06-03|2026-06-15": {
+  "claim": "There is a flash sale that concluded as scheduled",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.47,
+   "tokens_in": 248,
+   "tokens_out": 44
+  }
+ },
+ "2026-08-13_upi_gateway_degradation.txt|gmv|2026-06-03|2026-06-13": {
+  "claim": "Elevated UPI timeout rates may cause lower checkout completion",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 3.52,
+   "tokens_in": 269,
+   "tokens_out": 49
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-03|2026-06-13": {
+  "claim": "The competitor promo drove a significant increase in gmv",
+  "direction": "refuting",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.69,
+   "tokens_in": 253,
+   "tokens_out": 49
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-03|2026-06-13": {
+  "claim": "KPI (gmv) moved  in",
+  "direction": "confusing",
+  "supports": "coupon_expiry",
+  "temporal": 0.9,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 3.41,
+   "tokens_in": 254,
+   "tokens_out": 64
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-03|2026-06-12": {
+  "claim": "The competitor introduced audio bundling offers, which may have caused mild comparison-shopping pressure.",
+  "direction": "neutral",
+  "supports": "marketing_gap",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 3.45,
+   "tokens_in": 253,
+   "tokens_out": 52
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-03|2026-06-12": {
+  "claim": "Retailers extended site-wide coupon offers into August, supporting conversion",
+  "direction": "confirming",
+  "supports": "coupon_expiry",
+  "temporal": 0.9,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.57,
+   "tokens_in": 254,
+   "tokens_out": 49
+  }
+ },
+ "2026-08-11_rivalmart_electronics_flash_sale.txt|gmv|2026-06-03|2026-06-12": {
+  "claim": "The rise in gmv may be attributed to a competitor's promo",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.5,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 2.73,
+   "tokens_in": 265,
+   "tokens_out": 52
+  }
+ },
+ "2026-08-13_upi_gateway_degradation.txt|gmv|2026-07-10|2026-07-13": {
+  "claim": "PayFlow gateway issues may impact gmv",
+  "direction": "confirming",
+  "supports": "gateway_issue",
+  "temporal": 0.9,
+  "conflicts_with_internal": false,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 6.27,
+   "tokens_in": 269,
+   "tokens_out": 45
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-07-10|2026-07-13": {
+  "claim": "Retailers extending coupon offers supports conversion while active, which may lower realised prices during the coupon period",
+  "direction": "confirming",
+  "supports": "coupon_expiry",
+  "temporal": 0.8,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.61,
+   "tokens_in": 254,
+   "tokens_out": 56
+  }
+ },
+ "2026-07-04_eoss_season_start.txt|gmv|2026-07-10|2026-07-13": {
+  "claim": "KPI (gmv) may be negatively affected by end-of-season sales",
+  "direction": "neutral",
+  "supports": "demand_shift",
+  "temporal": 0.8,
+  "conflicts_with_internal": null,
+  "method": "LLM call #1 (ollama)",
+  "llm_meta": {
+   "backend": "ollama",
+   "latency_s": 5.33,
+   "tokens_in": 250,
+   "tokens_out": 51
+  }
+ },
+ "2026-05-14_competitor_bundling.txt|gmv|2026-06-15|2026-06-21": {
+  "claim": "Competitor introduces audio bundling offers",
+  "direction": "confirming",
+  "supports": "competitor_promo",
+  "temporal": 0.8,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-07-25_promo_coupon_launch.txt|gmv|2026-06-15|2026-06-21": {
+  "claim": "Retailers extend site-wide coupon offers into August",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ },
+ "2026-08-21_ad_spend_survey.txt|gmv|2026-06-15|2026-06-21": {
+  "claim": "Survey reports flat retail ad budgets for the quarter",
+  "direction": "neutral",
+  "supports": null,
+  "temporal": 0.5,
+  "conflicts_with_internal": false,
+  "method": "heuristic keyword map",
+  "llm_meta": {
+   "backend": "none",
+   "latency_s": null,
+   "tokens_in": null,
+   "tokens_out": null
+  }
+ }
+}

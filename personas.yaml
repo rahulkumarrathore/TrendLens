@@ -1,0 +1,35 @@
+cfo:
+  depth: executive
+  vocabulary: financial
+  numbers: aggregated
+  action_frame: approve
+  channels:
+  - email_digest
+  - dashboard
+  length: 120-180 words
+north_manager:
+  depth: operational_regional
+  vocabulary: retail_ops
+  numbers: region_scoped
+  action_frame: execute_regional
+  channels:
+  - alert_push
+  - dashboard
+  length: 100-150 words
+marketing_exec:
+  depth: operational_task
+  vocabulary: marketing
+  numbers: channel_campaign
+  action_frame: execute
+  channels:
+  - alert_push
+  - slack
+  length: 100-160 words
+analyst_intern:
+  depth: summary_readonly
+  vocabulary: neutral
+  numbers: category_aggregates
+  action_frame: none
+  channels:
+  - dashboard
+  length: 60-90 words
