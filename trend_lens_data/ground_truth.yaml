@@ -1,0 +1,99 @@
+window:
+  start: '2026-03-01'
+  asof: '2026-08-26'
+seed: 42
+watermarks:
+  sales.orders: '2026-08-26'
+  web_analytics.parquet: '2026-08-25'
+  marketing.xlsx: '2026-08-24'
+events:
+- id: S1a
+  name: coupon_expiry
+  date: '2026-07-15'
+  mechanism: sitewide discount 10% -> ~0 on 2026-07-15
+  expected:
+    conversion_pct:
+    - -14
+    - -6
+    price_pct:
+    - 5
+    - 12
+    gmv_pct:
+    - -16
+    - -6
+  scope: sitewide
+- id: S1b
+  name: competitor_promo
+  dates:
+  - '2026-07-15'
+  - '2026-07-21'
+  mechanism: organic sessions -8%, electronics mix -25%
+  expected:
+    traffic_pp:
+    - -6
+    - -3
+  scope: organic channel, Electronics-concentrated
+- id: S2
+  name: ambiguous_week
+  dates:
+  - '2026-08-17'
+  - '2026-08-23'
+  mechanism: mild broad softness (~-2% CR, -2% organic); marketing.xlsx upload SKIPPED;
+    contradictory news 2026-08-20
+  expected:
+    gate: abstain
+- id: S3
+  name: airpro_sparse_launch
+  launch: '2026-08-03'
+  analogs:
+    ELEC-SOUNDMAX-WHT: '2026-03-05'
+    ELEC-BASSLITE-BLU: '2026-05-01'
+  expected:
+    history_days: 32
+    alert: none (in-band)
+- id: GW
+  name: gateway_blip
+  date: '2026-08-05'
+  mechanism: checkout completion x0.72, started untouched
+  expected:
+    funnel_step: checkout
+- id: SO
+  name: stockout
+  dates:
+  - '2026-06-10'
+  - '2026-06-13'
+  mechanism: FASH-SNEAKER South stock=0
+  expected:
+    acts_on:
+    - conversion
+    - mix
+calendar:
+  eoss_jun:
+    start: '2026-06-01'
+    end: '2026-06-08'
+    mult: 1.45
+    categories:
+    - Fashion
+    - Home
+    name: End of season sale
+  rakhi_aug:
+    start: '2026-08-24'
+    end: '2026-08-26'
+    mult: 1.35
+    categories:
+    - Fashion
+    - Home
+    name: Raksha Bandhan gifting
+  summer_may:
+    start: '2026-05-08'
+    end: '2026-05-14'
+    mult: 1.2
+    categories:
+    - Electronics
+    name: Summer electronics week
+quality_flaws:
+- 'marketing.xlsx: 1 duplicate row'
+- 'marketing.xlsx: end_date 2062 typo'
+- 'inventory: ~2% missing sku-region-days'
+- 'web: checkouts over-report orders ~3%'
+- 'orders: ~4% cancelled'
